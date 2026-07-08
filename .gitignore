@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# Ignore python built metadata
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Ignore local environment files if stored inside the project
+lava/
+# Ignore python built metadata
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Ignore local environment folder
+lava/
